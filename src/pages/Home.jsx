@@ -125,9 +125,11 @@ function Home() {
                 <Button variant="light">
                   <Linkedin />
                 </Button>
+                <a href="https://github.com/tabhay563">
                 <Button variant="light">
                   <GitHub />
                 </Button>
+                </a>
                 <Button variant="light">
                   <Twitter />
                 </Button>
