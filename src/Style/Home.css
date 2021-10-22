@@ -14,7 +14,7 @@
   font-weight: bolder;
   padding: 20px;
   border-bottom: 5px solid black;
-  border-radius:2px;
+  border-radius: 2px;
 }
 .Home .Intro p {
   width: 70%;
@@ -69,31 +69,36 @@
   padding: 10px 0px;
 }
 
-.Home .Team{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 10px;
+.Home .Team {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
 }
-.Home .Team h1{
-    padding: 10px;
-    border-bottom: 5px double black;
+.Home .Team h1 {
+  padding: 10px;
+  border-bottom: 5px double black;
 }
-.Home .Team .Members{
-    width: 70%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    margin: auto;
-    margin-top: 10px !important;
-    margin-bottom: 10px !important;
-    padding: 10px;
-    background-color: aquamarine;
+.Home .Team .Members {
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
+  padding: 10px;
+}
+.Home .Team .Members .Card {
+  padding: 20px;
+  border-radius: 20px;
+  background: linear-gradient(145deg, #cacaca, #f0f0f0);
+  box-shadow: 5px 5px 10px #d7d7d7, -5px -5px 10px #e9e9e9;
+}
 
-}
-.Home .Team .Members Img{
-    border-radius: 50%;
-    border:0.5px solid black;
+.Home .Team .Members Img {
+  border-radius: 50%;
+  border: 0.5px solid black;
 }
