@@ -8,5 +8,5 @@
 
 * In this way **A** is helping **B** as well as **Nature** in the same time.
 
-![](https://cdn.discordapp.com/attachments/900789323908153437/901108125183139910/happy.gif)
+![](https://cdn.discordapp.com/attachments/900789323908153437/901163789523767337/happy_1.gif)
 
