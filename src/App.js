@@ -1,23 +1,29 @@
-import logo from './logo.svg';
+import { Route, Switch, Redirect } from 'react-router-dom';
 import './App.css';
+import Home from './components/Home';
+import {useEffect} from 'react';
+import NavBar from './components/NavBar';
+import React from 'react';
 
 function App() {
+  useEffect(() => {window.scrollTo(0, 0)}, [])
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <NavBar />
+      <Switch>
+        <Route path='/' exact>
+          <Home />
+        </Route>
+        <Route path='*'>
+          <Redirect to="/"></Redirect>
+        </Route>
+      </Switch>
+      <footer id="sticky-footer" class="flex-shrink-0 py-4 bg-dark text-white-50">
+        <div class="container text-center">
+          <small>Copyright &copy; Your Website</small>
+        </div>
+      </footer>
     </div>
   );
 }
