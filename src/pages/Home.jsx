@@ -72,7 +72,7 @@ function Home() {
         <h1> Team Members</h1>
         <div className="Members">
           <Card style={{ width: "18rem" }}>
-            <Card.Img variant="top" src="holder.js/100px180" />
+            <Card.Img variant="top" src="https://avatars.githubusercontent.com/u/77954495?s=400&u=3110e72130bc8a7faee7b2aa39ec2664ff2e748d&v=4" />
             <Card.Body>
               <Card.Title>Rajul Koshta</Card.Title>
               <Card.Text>
@@ -80,20 +80,26 @@ function Home() {
                 the bulk of the card's content.
               </Card.Text>
               <ButtonGroup>
-                <Button variant="light">
+              <a href="https://www.linkedin.com/in/rajulkoshta/">
+                 <Button variant="light">
                   <Linkedin />
-                </Button>
+                 </Button>
+                </a>
+                <a href="https://github.com/rajulkoshta">
                 <Button variant="light">
                   <GitHub />
                 </Button>
+                </a>
+                <a href="https://twitter.com/RajulKoshta">
                 <Button variant="light">
                   <Twitter />
                 </Button>
+                </a>
               </ButtonGroup>
             </Card.Body>
           </Card>
           <Card style={{ width: "18rem" }}>
-            <Card.Img variant="top" src="holder.js/100px180" />
+            <Card.Img variant="top" src="https://avatars.githubusercontent.com/u/71265266?v=4" />
             <Card.Body>
               <Card.Title>Sugam Agrawal</Card.Title>
               <Card.Text>
@@ -101,20 +107,26 @@ function Home() {
                 the bulk of the card's content.
               </Card.Text>
               <ButtonGroup>
-                <Button variant="light">
+              <a href="https://linkedin.com/sugam50">
+                 <Button variant="light">
                   <Linkedin />
-                </Button>
+                 </Button>
+                </a>
+                <a href="https://github.com/sugam50">
                 <Button variant="light">
                   <GitHub />
                 </Button>
+                </a>
+                <a href="https://twitter.com/sugam50">
                 <Button variant="light">
                   <Twitter />
                 </Button>
+                </a>
               </ButtonGroup>
             </Card.Body>
           </Card>
           <Card style={{ width: "18rem" }}>
-            <Card.Img variant="top" src="holder.js/100px180" />
+            <Card.Img variant="top" src="https://avatars.githubusercontent.com/u/89150017?v=4/100px180" />
             <Card.Body>
               <Card.Title>Abhay</Card.Title>
               <Card.Text>
@@ -122,17 +134,21 @@ function Home() {
                 the bulk of the card's content.
               </Card.Text>
               <ButtonGroup>
-                <Button variant="light">
+                <a href="https://linkedin.com/tabhay563">
+                 <Button variant="light">
                   <Linkedin />
-                </Button>
+                 </Button>
+                </a>
                 <a href="https://github.com/tabhay563">
                 <Button variant="light">
                   <GitHub />
                 </Button>
                 </a>
+                <a href="https://twitter.com/tabhay563">
                 <Button variant="light">
                   <Twitter />
                 </Button>
+                </a>
               </ButtonGroup>
             </Card.Body>
           </Card>
