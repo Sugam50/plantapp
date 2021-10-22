@@ -83,15 +83,21 @@ function Home() {
                 the bulk of the card's content.
               </Card.Text>
               <ButtonGroup>
-                <Button variant="light">
+              <a href="https://www.linkedin.com/in/rajulkoshta/">
+                 <Button variant="light">
                   <Linkedin />
-                </Button>
+                 </Button>
+                </a>
+                <a href="https://github.com/rajulkoshta">
                 <Button variant="light">
                   <GitHub />
                 </Button>
+                </a>
+                <a href="https://twitter.com/RajulKoshta">
                 <Button variant="light">
                   <Twitter />
                 </Button>
+                </a>
               </ButtonGroup>
             </Card.Body>
           </Card>
@@ -104,15 +110,21 @@ function Home() {
                 the bulk of the card's content.
               </Card.Text>
               <ButtonGroup>
-                <Button variant="light">
+              <a href="https://linkedin.com/sugam50">
+                 <Button variant="light">
                   <Linkedin />
-                </Button>
+                 </Button>
+                </a>
+                <a href="https://github.com/sugam50">
                 <Button variant="light">
                   <GitHub />
                 </Button>
+                </a>
+                <a href="https://twitter.com/sugam50">
                 <Button variant="light">
                   <Twitter />
                 </Button>
+                </a>
               </ButtonGroup>
             </Card.Body>
           </Card>
@@ -125,17 +137,21 @@ function Home() {
                 the bulk of the card's content.
               </Card.Text>
               <ButtonGroup>
-                <Button variant="light">
+                <a href="https://linkedin.com/tabhay563">
+                 <Button variant="light">
                   <Linkedin />
-                </Button>
+                 </Button>
+                </a>
                 <a href="https://github.com/tabhay563">
                 <Button variant="light">
                   <GitHub />
                 </Button>
                 </a>
+                <a href="https://twitter.com/tabhay563">
                 <Button variant="light">
                   <Twitter />
                 </Button>
+                </a>
               </ButtonGroup>
             </Card.Body>
           </Card>
