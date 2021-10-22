@@ -9,7 +9,7 @@ function Home() {
   return (
     <div className="Home">
       <Crousel />
-      <div className="Intro">
+      <div className="Intro" id="Intro">
         <h1> About Our project</h1>
         <p>
           A plantation is a large-scale estate, generally centered on a
@@ -71,7 +71,7 @@ function Home() {
           </div>
         </div>
       </div>
-      <div className="Team">
+      <div className="Team" id="Team">
         <h1> Team Members</h1>
         <div className="Members">
           <Card style={{ width: "18rem" }}>

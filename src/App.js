@@ -5,6 +5,7 @@ import {useEffect} from 'react';
 import NavBar from './components/NavBar';
 import React from 'react';
 import Footer from './components/Footer';
+import Plantor from './pages/Plantor';
 
 function App() {
   useEffect(() => {window.scrollTo(0, 0)}, [])
@@ -15,6 +16,9 @@ function App() {
       <Switch>
         <Route path='/' exact>
           <Home />
+        </Route>
+        <Route path='/plant' exact>
+          <Plantor/>
         </Route>
         <Route path='*'>
           <Redirect to="/"></Redirect>
