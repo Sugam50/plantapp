@@ -23,6 +23,8 @@
 .Home .reg_cards {
   margin-top: 10px !important;
   width: 80%;
+  /* height: 500px; */
+  /* background-color: aqua; */
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
