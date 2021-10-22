@@ -1,5 +1,5 @@
 import React from "react";
-import Crousel from "./Crousel";
+import Crousel from "../components/Crousel";
 import "../Style/Home.css";
 import { Card, Button, ButtonGroup } from "react-bootstrap";
 import CountUp from "react-countup";
