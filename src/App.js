@@ -7,6 +7,7 @@ import React from 'react';
 import Footer from './components/Footer';
 import Plantor from './pages/Plantor';
 import Donor from './pages/Donor';
+import About from './pages/About';
 
 function App() {
   useEffect(() => {window.scrollTo(0, 0)}, [])
@@ -23,6 +24,9 @@ function App() {
         </Route>
         <Route path='/donor' exact>
           <Donor/>
+        </Route>
+        <Route path='/About' exact>
+          <About/>
         </Route>
         <Route path='*'>
           <Redirect to="/"></Redirect>
