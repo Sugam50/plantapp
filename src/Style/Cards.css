@@ -36,3 +36,18 @@
   width: 10%;
   height: 100%;
 }
+
+.Options{
+  display: flex;
+  width: 30%;
+  height: 80px;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+}
+.Options button{
+  width: 40% !important;
+}
+.hide{
+  display: none;
+}
