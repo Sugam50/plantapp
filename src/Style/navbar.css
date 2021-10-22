@@ -1,0 +1,32 @@
+.logoimage {
+        position:absolute;
+        width: 6rem;
+        height: 6rem;
+        margin: 0px 20px;
+        border-radius: 50%;
+        left : -10px;
+        top : 0px;
+        z-index: 1;
+    } 
+.home {
+    color:MediumSeaGreen !important;
+    font-weight: bold;
+}
+.plantify {
+    color: #E0E4D4 !important;
+   font-size: 2rem !important;
+   font-weight: bold;
+}
+.aboutus {
+    color: MediumSeaGreen !important;
+    font-weight: bold;
+
+}
+.Planttree {
+    color: MediumSeaGreen !important;
+    font-weight: bold;
+}
+.Donate {
+    color: MediumSeaGreen !important;
+    font-weight: bold;
+}
