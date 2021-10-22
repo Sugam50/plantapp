@@ -1,7 +1,7 @@
 import React from "react";
-import image1 from "./bg1.svg";
-import image2 from "./bg2.svg";
-import image3 from "./bg3.svg";
+import image1 from '../assests/bg1.svg'
+import image2 from "../assests/bg2.svg";
+import image3 from "../assests/bg3.svg";
 
 import {Carousel} from 'react-bootstrap';
 function Crousel() {
