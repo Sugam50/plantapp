@@ -75,7 +75,7 @@ function Home() {
         <h1> Team Members</h1>
         <div className="Members">
           <Card style={{ width: "18rem" }}>
-            <Card.Img variant="top" src="holder.js/100px180" />
+            <Card.Img variant="top" src="https://avatars.githubusercontent.com/u/77954495?s=400&u=3110e72130bc8a7faee7b2aa39ec2664ff2e748d&v=4" />
             <Card.Body>
               <Card.Title>Rajul Koshta</Card.Title>
               <Card.Text>
@@ -102,7 +102,7 @@ function Home() {
             </Card.Body>
           </Card>
           <Card style={{ width: "18rem" }}>
-            <Card.Img variant="top" src="holder.js/100px180" />
+            <Card.Img variant="top" src="https://avatars.githubusercontent.com/u/71265266?v=4" />
             <Card.Body>
               <Card.Title>Sugam Agrawal</Card.Title>
               <Card.Text>
@@ -129,7 +129,7 @@ function Home() {
             </Card.Body>
           </Card>
           <Card style={{ width: "18rem" }}>
-            <Card.Img variant="top" src="holder.js/100px180" />
+            <Card.Img variant="top" src="https://avatars.githubusercontent.com/u/89150017?v=4/100px180" />
             <Card.Body>
               <Card.Title>Abhay</Card.Title>
               <Card.Text>
