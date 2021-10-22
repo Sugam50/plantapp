@@ -13,17 +13,7 @@ function Home() {
       <div className="Intro" id="Intro">
         <h1> About Our project</h1>
         <p>
-          A plantation is a large-scale estate, generally centered on a
-          plantation house, meant for farming that specializes in cash crops.The
-          crops that are grown include cotton, coffee, tea, cocoa, sugar cane,
-          opium, sisal, oil seeds, oil palms, fruits, rubber trees and forest
-          trees. Protectionist policies and natural comparative advantage have
-          sometimes contributed to determining where plantations are located.
-          Among the earliest examples of plantations were the latifundia of the
-          Roman Empire, which produced large quantities of grain, wine and olive
-          oil for export. Plantation agriculture grew rapidly with the increase
-          in international trade and the development of a worldwide economy that
-          followed the expansion of European colonialism.
+          Plantify is a Tool to help others and Environment .
         </p>
       </div>
       <div className="reg_cards">
