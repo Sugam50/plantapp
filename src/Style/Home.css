@@ -21,7 +21,7 @@ url("https://fonts.googleapis.com/css2?family=Azeret+Mono&display=swap");
 .Home .Intro p {
   width: 70%;
   height: 100%;
-  margin: 90px;
+  margin: 20px 0px;
   font-size: large;
   text-align: justify;
   padding: 2px;
@@ -87,3 +87,41 @@ url("https://fonts.googleapis.com/css2?family=Azeret+Mono&display=swap");
    width: 100%;
  
 } 
+<<<<<<< HEAD
+=======
+
+.card-plant-btn {
+  border: 2px solid #4CAF50;
+  color:#4CAF50;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: flow-root;
+  font-size: 16px;
+}
+.card-plant-btn:hover{
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+.card-donate-btn {
+  background-color:white ;
+  border: none;
+  color:#4CAF50;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: flow-root;
+  border: 2px solid #4CAF50;
+  font-size: 16px;
+}
+.card-donate-btn:hover{
+  background-color: #4CAF50; /* Green */
+  color: white;
+}  
+>>>>>>> 6199692805e88f76fd1ce100bd2cb5349c6b080d
