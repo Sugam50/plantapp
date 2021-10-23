@@ -14,7 +14,13 @@ function Home() {
       <div className="Intro" id="Intro">
         <h1> About Our project</h1>
         <p>
-          Plantify is a Tool to help others and Environment .
+        Plantify is the Project that solves the real world problem like Global warming, Climate change and Deforestation.
+
+The fun part is we can save our plant and help others simultaneously.
+
+Example: Person A have money but dont have time to give back to the nature, here comes person b who has time but want to earn money. So A can donate the money through our Website and If B wants money he can do this by planting a tree and recording the video of that and submit to website for review phase if review got pass B can got money that A has donated.
+
+In this way A is helping B as well as Nature in the same time.
         </p>
       </div>
       <div className="reg_cards">
