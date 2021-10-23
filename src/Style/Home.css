@@ -12,7 +12,8 @@
   justify-content: center;
 }
 .Home .Intro h1 {
-  font-weight: bolder;
+  font-weight:1000;
+  font-size: 3rem;
   padding: 20px;
   border-bottom: 5px solid black;
   border-radius: 2px;
@@ -21,7 +22,9 @@
   width: 70%;
   height: 100%;
   margin: 20px 0px;
-  font-size: large;
+  font-size: 1.3rem;
+  line-height: 2.1rem;
+  font-weight: bolder;
   text-align: justify;
   padding: 2px;
   padding: 5px;
@@ -41,6 +44,10 @@
   font-weight: bold;
   font-size: 1.5rem;
 }
+.Home .card-style{
+  margin: 4rem;
+  width: 37rem;
+ }
 .Home .Overlay {
   margin: auto;
   margin-top: 10px !important;
@@ -84,7 +91,8 @@
 }
 .Home .Team h1 {
   padding: 10px;
-  border-bottom: 5px double black;
+  border-bottom: 3px solid black;
+  font-weight: bold;
 }
 .Home .Team .Members {
    width: 100%;
@@ -125,3 +133,29 @@
   background-color: #4CAF50; /* Green */
   color: white;
 }  
+
+@media screen and (min-width:900px) and (max-width:1200px) {
+  .Home .reg_cards{
+     flex-shrink: 1;
+  }
+  .Home .card-style{
+    margin: 4rem;
+    width: 30rem;
+   }
+   .Home .card-img-style{
+    height:12rem;
+   }
+ }
+ 
+ @media screen and (min-width:300px) and (max-width:900px) {
+  .Home .card-style{
+    margin: 2rem;
+    width: 15rem;
+   }
+   .Home .card-img-style{
+    height:6rem;
+   }
+  .Home .reg_cards {
+     flex-direction: column;
+   }
+ }

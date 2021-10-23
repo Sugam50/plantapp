@@ -11,8 +11,7 @@ function About() {
             <Card.Body>
               <Card.Title>Rajul Koshta</Card.Title>
               <Card.Text>
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                Frontend Developer | Ml and Al enthusiast 
               </Card.Text>
               <ButtonGroup>
               <a href="https://www.linkedin.com/in/rajulkoshta/">
@@ -38,8 +37,7 @@ function About() {
             <Card.Body>
               <Card.Title>Sugam Agrawal</Card.Title>
               <Card.Text>
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                Full Stack Developer | AI & Blockcahin enthusiast | Android Developer
               </Card.Text>
               <ButtonGroup>
               <a href="https://linkedin.com/in/sugam50">
@@ -65,8 +63,7 @@ function About() {
             <Card.Body>
               <Card.Title>Abhay Thakur</Card.Title>
               <Card.Text>
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                Frontend Developer | techie  |   Code lover
               </Card.Text>
               <ButtonGroup>
                 <a href="https://linkedin.com/in/tabhay563">
