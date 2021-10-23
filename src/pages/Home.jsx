@@ -45,7 +45,7 @@ function Home() {
               Some quick example text to build on the card title and make up the
               bulk of the card's content.
             </Card.Text>
-            <Link className="card-plant-btn" to="/plant">
+            <Link className="card-plant-btn" to="/login">
               <ArrowRightCircle /> know more
             </Link>
           </Card.Body>
