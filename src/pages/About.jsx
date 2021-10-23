@@ -42,7 +42,7 @@ function About() {
                 the bulk of the card's content.
               </Card.Text>
               <ButtonGroup>
-              <a href="https://linkedin.com/sugam50">
+              <a href="https://linkedin.com/in/sugam50">
                  <Button variant="light">
                   <Linkedin />
                  </Button>
@@ -63,13 +63,13 @@ function About() {
           <Card className="Card" style={{ width: "18rem" }}>
             <Card.Img variant="top" src="https://avatars.githubusercontent.com/u/89150017?v=4/100px180" />
             <Card.Body>
-              <Card.Title>Abhay</Card.Title>
+              <Card.Title>Abhay Thakur</Card.Title>
               <Card.Text>
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
               </Card.Text>
               <ButtonGroup>
-                <a href="https://linkedin.com/tabhay563">
+                <a href="https://linkedin.com/in/tabhay563">
                  <Button variant="light">
                   <Linkedin />
                  </Button>
@@ -79,7 +79,7 @@ function About() {
                   <GitHub />
                 </Button>
                 </a>
-                <a href="https://twitter.com/tabhay563">
+                <a href="https://twitter.com/tabhay56">
                 <Button variant="light">
                   <Twitter />
                 </Button>
