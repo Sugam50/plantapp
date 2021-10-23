@@ -28,6 +28,9 @@ function App() {
         <Route path='/About' exact>
           <About/>
         </Route>
+        <Route path='/login' exact>
+          <login/>
+        </Route>
         <Route path='*'>
           <Redirect to="/"></Redirect>
         </Route>
