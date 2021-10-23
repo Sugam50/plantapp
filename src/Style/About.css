@@ -21,3 +21,23 @@
   border-radius: 50%;
   border: 0.5px solid black;
 }
+
+@media screen and (max-width: 1200px) {
+  .About {
+    width: 100%;
+   }
+}
+@media screen and (min-width:900px) and (max-width:1200px) {
+ .About{
+    flex-shrink: 1;
+ }
+}
+
+@media screen and (min-width:300px) and (max-width:900px) {
+  .About {
+    flex-direction: column;
+  }
+  .About .Card {
+  margin:10px 0px;
+  }
+}
