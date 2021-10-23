@@ -1,5 +1,6 @@
 import React from "react";
 import Crousel from "../components/Crousel";
+import {ArrowRightCircle} from "react-feather";
 import "../Style/Home.css";
 import {Link} from 'react-router-dom';
 import { Card} from "react-bootstrap";
@@ -25,7 +26,7 @@ function Home() {
               Some quick example text to build on the card title and make up the
               bulk of the card's content.
             </Card.Text>
-            <Link to="/plant">Click Here</Link>
+            <Link className="card-plant-btn" to="/plant"><ArrowRightCircle /> know more</Link>
            
           </Card.Body>
         </Card>
@@ -37,7 +38,7 @@ function Home() {
               Some quick example text to build on the card title and make up the
               bulk of the card's content.
             </Card.Text>
-            <Link to="/donor">Click Here</Link>
+            <Link className="card-donate-btn" to="/donor"><ArrowRightCircle /> know more</Link>
            
           </Card.Body>
         </Card>
