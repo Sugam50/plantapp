@@ -1,5 +1,5 @@
 import React from 'react'
-import { GitHub, Linkedin, Twitter } from "react-feather";
+import { GitHub, Linkedin, Twitter} from "react-feather";
 import {Card, Button, ButtonGroup } from "react-bootstrap";
 import '../Style/About.css'
 
