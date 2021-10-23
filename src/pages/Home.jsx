@@ -1,9 +1,9 @@
 import React from "react";
 import Crousel from "../components/Crousel";
-import {ArrowRightCircle} from "react-feather";
+import { ArrowRightCircle } from "react-feather";
 import "../Style/Home.css";
-import {Link} from 'react-router-dom';
-import { Card} from "react-bootstrap";
+import { Link } from "react-router-dom";
+import { Card } from "react-bootstrap";
 import CountUp from "react-countup";
 import About from "./About";
 
@@ -14,32 +14,56 @@ function Home() {
       <div className="Intro" id="Intro">
         <h1> About Our project</h1>
         <p>
-          Plantify is a Tool to help others and Environment .
+          Plantify is a Tool to help others and Environment.This Project motivates
+          others to plant more and more trees and those who don't have time can also contribute towards green revolution
+          .Just by donationg small abount to people who are willing to plant more and more plants....<br />
+          The fun part is we can save our plant and help others simultaneously.{" "}
+          <ul>
+            <li>
+              Example: Person A have money but dont have time to give back to
+              the nature, here comes person b who has time but want to earn
+              money. So A can donate the money through our Website and If B
+              wants money he can do this by planting a tree and recording the
+              video of that and submit to website for review phase if review got
+              pass B can got money that A has donated.
+            </li>
+            <li>
+              In this way A is helping B as well as Nature in the same time.
+            </li>
+          </ul>
         </p>
       </div>
       <div className="reg_cards">
-        <Card style={{ width: "18rem"}}>
-        <Card.Img variant="top" src="https://cdn.discordapp.com/attachments/900789323908153437/901089190966591490/donate.png" />
+        <Card style={{ width: "18rem" }}>
+          <Card.Img
+            variant="top"
+            src="https://cdn.discordapp.com/attachments/900789323908153437/901089190966591490/donate.png"
+          />
           <Card.Body>
             <Card.Title>Want to plant </Card.Title>
             <Card.Text>
               Some quick example text to build on the card title and make up the
               bulk of the card's content.
             </Card.Text>
-            <Link className="card-plant-btn" to="/plant"><ArrowRightCircle /> know more</Link>
-           
+            <Link className="card-plant-btn" to="/plant">
+              <ArrowRightCircle /> know more
+            </Link>
           </Card.Body>
         </Card>
-        <Card style={{ width: "18rem"}}>
-        <Card.Img variant="top" src="https://cdn.discordapp.com/attachments/900789323908153437/901090177760526387/Untitled.png" />
+        <Card style={{ width: "18rem" }}>
+          <Card.Img
+            variant="top"
+            src="https://cdn.discordapp.com/attachments/900789323908153437/901090177760526387/Untitled.png"
+          />
           <Card.Body>
             <Card.Title>Want to Donate</Card.Title>
             <Card.Text>
               Some quick example text to build on the card title and make up the
               bulk of the card's content.
             </Card.Text>
-            <Link className="card-donate-btn" to="/donor"><ArrowRightCircle /> know more</Link>
-           
+            <Link className="card-donate-btn" to="/donor">
+              <ArrowRightCircle /> know more
+            </Link>
           </Card.Body>
         </Card>
       </div>
@@ -62,7 +86,7 @@ function Home() {
       <div className="Team" id="Team">
         <h1> Team Members</h1>
         <div className="Members">
-         <About/>
+          <About />
         </div>
       </div>
     </div>

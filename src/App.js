@@ -8,6 +8,7 @@ import Footer from './components/Footer';
 import Plantor from './pages/Plantor';
 import Donor from './pages/Donor';
 import About from './pages/About';
+import Login from './pages/Login';
 
 function App() {
   useEffect(() => {window.scrollTo(0, 0)}, [])
@@ -29,7 +30,7 @@ function App() {
           <About/>
         </Route>
         <Route path='/login' exact>
-          <login/>
+          <Login/>
         </Route>
         <Route path='*'>
           <Redirect to="/"></Redirect>
