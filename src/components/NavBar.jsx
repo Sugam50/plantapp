@@ -13,7 +13,7 @@ function NavBar() {
           <Link className="home"      to="/">Home</Link>
           <Link className="aboutus"   to="/About">About us</Link>
           <Link className="Donate"    to="/donor">Donate</Link>
-          <Link className="Planttree" to="/plant">Plant Tree</Link>
+          {/* <Link className="Planttree" to="/plant">Plant Tree</Link> */}
           <Link className="login"     to="/login">Login</Link>
         </Nav>
       </Container>

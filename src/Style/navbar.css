@@ -8,6 +8,10 @@
         top : 0px;
         z-index: 1;
     } 
+
+.navbar{
+    background-color: #3D550C;
+}
 .home,.aboutus ,.Planttree , .Donate,.login {
     margin: 10px;
     text-decoration: none;
