@@ -8,25 +8,18 @@
         top : 0px;
         z-index: 1;
     } 
-.home {
-    color:MediumSeaGreen !important;
+.home,.aboutus ,.Planttree , .Donate,.login {
+    margin: 10px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color:MediumSeaGreen;
     font-weight: bold;
+}
+.home:hover,.aboutus:hover ,.Planttree:hover , .Donate:hover,.login:hover{
+    color: white;
 }
 .plantify {
     color: #E0E4D4 !important;
    font-size: 2rem !important;
    font-weight: bold;
-}
-.aboutus {
-    color: MediumSeaGreen !important;
-    font-weight: bold;
-
-}
-.Planttree {
-    color: MediumSeaGreen !important;
-    font-weight: bold;
-}
-.Donate {
-    color: MediumSeaGreen !important;
-    font-weight: bold;
 }
