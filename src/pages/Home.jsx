@@ -16,7 +16,7 @@ function Home() {
         <p>
           Plantify is a Tool to help others and Environment.This Project motivates
           others to plant more and more trees and those who don't have time can also contribute towards green revolution
-          .Just by donationg small abount to people who are willing to plant more and more plants....<br />
+          .Just by donationg small amount to people who are willing to plant more and more plants....<br />
           The fun part is we can save our plant and help others simultaneously.{" "}
           <ul>
             <li>
@@ -34,32 +34,32 @@ function Home() {
         </p>
       </div>
       <div className="reg_cards">
-        <Card style={{ width: "18rem" }}>
+        <Card className="card-style">
           <Card.Img
+            className="card-img-style"
             variant="top"
             src="https://cdn.discordapp.com/attachments/900789323908153437/901089190966591490/donate.png"
           />
           <Card.Body>
             <Card.Title>Want to plant </Card.Title>
             <Card.Text>
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
+           Want to plant trees and also earn some money on the way but wondering how ?.Here is the good chance register now and know more. 
             </Card.Text>
             <Link className="card-plant-btn" to="/login">
               <ArrowRightCircle /> know more
             </Link>
           </Card.Body>
         </Card>
-        <Card style={{ width: "18rem" }}>
+        <Card className="card-style">
           <Card.Img
+            className="card-img-style"
             variant="top"
             src="https://cdn.discordapp.com/attachments/900789323908153437/901090177760526387/Untitled.png"
           />
           <Card.Body>
             <Card.Title>Want to Donate</Card.Title>
             <Card.Text>
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
+            don't have time to look after the nature mother .Contribute to the well being of our mother nature , tap the button to know more. 
             </Card.Text>
             <Link className="card-donate-btn" to="/donor">
               <ArrowRightCircle /> know more
