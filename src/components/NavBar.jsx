@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import '../Style/navbar.css'
 function NavBar() {
   return (
-    <Navbar bg="dark" variant="dark">
+    <Navbar className="navbar">
       <Container>
         <Image  className="logoimage"
             src="https://cdn.discordapp.com/attachments/900789323908153437/901098486311825448/Copy_of_Plantify.png" alt="" />
