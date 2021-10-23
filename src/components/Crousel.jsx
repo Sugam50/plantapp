@@ -13,6 +13,10 @@ function Crousel() {
           src={image1}
           alt="First slide"
         />
+         <Carousel.Caption>
+      <h3>Welcome to the biggest plantation drive ever</h3>
+      <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+    </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item interval={2000}>
         <img
