@@ -25,7 +25,7 @@ function Home() {
               Some quick example text to build on the card title and make up the
               bulk of the card's content.
             </Card.Text>
-            <Link to="/plant">Click Here</Link>
+            <Link className="card-plant-btn" to="/plant">Click Here</Link>
            
           </Card.Body>
         </Card>
@@ -37,7 +37,7 @@ function Home() {
               Some quick example text to build on the card title and make up the
               bulk of the card's content.
             </Card.Text>
-            <Link to="/donor">Click Here</Link>
+            <Link className="card-donate-btn" to="/donor">Click Here</Link>
            
           </Card.Body>
         </Card>
