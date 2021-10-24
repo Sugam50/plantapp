@@ -5,7 +5,7 @@ import { MapPin } from 'react-feather';
 function SimpleMap({center}) {
     const AnyReactComponent = () => <div><MapPin/></div>;
     return (
-        <div style={{ height:"600px", width: "500px" }}>
+        <div style={{ height:"400px", width: "400px" }}>
           <GoogleMapReact
             bootstrapURLKeys={{
               key: "AIzaSyAGq0QP9ncJK1I94kWs1H8yo7thj0V5PA8",
